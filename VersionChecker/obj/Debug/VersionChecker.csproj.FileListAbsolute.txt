@@ -1,0 +1,11 @@
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\bin\Debug\VersionChecker.exe.config
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\bin\Debug\VersionChecker.exe
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\bin\Debug\VersionChecker.pdb
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.csproj.AssemblyReference.cache
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.csproj.SuggestedBindingRedirects.cache
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.Base.resources
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.Properties.Resources.resources
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.csproj.GenerateResource.cache
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.csproj.CoreCompileInputs.cache
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.exe
+C:\Users\White\Documents\Visual Studio 2022\source\repos\VersionChecker\VersionChecker\obj\Debug\VersionChecker.pdb
