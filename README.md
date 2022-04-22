@@ -2,9 +2,6 @@
 
 ## Choose your language | Escolha seu idioma
 
-<details>
-<summary style="font-size: 25px">English</summary>
-
 ## English
 
 <div style="background-color: rgba(150,0,150,.5); color: rgba(220,220,220,1); padding: 10px; border-radius: 15px">
@@ -30,7 +27,6 @@ Then, by checking the system itself, it is possible to update the program to the
   * If the server returns a different version than the local one, the system will send an update notification to the client.  
   
   * If the server returns to the same version as the local one, the system will only show that the program is in the latest released version.
-</details>
 
 <!-- English / Português -->
 
