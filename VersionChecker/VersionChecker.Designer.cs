@@ -52,9 +52,9 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkViolet;
             this.lblTitulo.Location = new System.Drawing.Point(3, 4);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(102, 17);
+            this.lblTitulo.Size = new System.Drawing.Size(106, 17);
             this.lblTitulo.TabIndex = 1;
-            this.lblTitulo.Text = "VersionChecker";
+            this.lblTitulo.Text = "Version Checker";
             // 
             // pnTop2
             // 

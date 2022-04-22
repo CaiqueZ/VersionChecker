@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net; // Lembre-se de adicionar o "System.Net;" para que o WebClient funcione corretamente!
+using System.Net; // Remember to add the "System.Net;" so that the WebClient works correctly!
 using System.Windows.Forms;
 
 namespace VersionChecker
@@ -20,15 +20,16 @@ namespace VersionChecker
 
         private void Base_Load(object sender, EventArgs e)
         {
-            //Versão Local do programa
-            string appVersion = "v0.0.1";  // Recomendo verificar a versão com base em um arquivo separado, onde vai conter demais informações importantes! (Você pode criar sua própria extensão, e lá criptografar os dados, quando o programa puxar as informações o mesmo já realiza a leitura e descriptografa)
+            // Local version of the program
+            string appVersion = "v0.0.1";  // I recommend checking the version based on a separate file, where it will contain other important information!
             lblLocalVersion.Text = "Version: " + appVersion;
-            
-            //WebClient, puxa a referente informação da Web, nesse caso faço um request na referente URL e consigo obter uma string (A string é a última versão dispinibilizada no servidor).
-            WebClient client = new WebClient();
-            string getUpdate = client.DownloadString("https://pastebin.com/raw/T1QJeVm3");
 
-            //Versão Online do programa após ser coletada é informada visualmente
+            // WebClient, pulls the referring information from the Web, in this case I make a request on the referring URL and I get a string (The string is the last version made available on the server).
+            WebClient client = new WebClient();
+
+            string getUpdate = client.DownloadString("https://pastebin.com/raw/T1QJeVm3");  // Here is the link to the file you want to get the information from, in this case I used a .txt stored in pastebin !!! Remember to get the URL that opens the file directly and is displayed by the browser, do not use the URL where the file is displayed by the site, otherwise the webclient will return an error as it will take parts of the HTML!
+
+            // Online version of the program after being collected is visually informed in a label 
             lblNewerVersion.Text = "Last Update: " + getUpdate;
         }
 
