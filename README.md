@@ -50,4 +50,5 @@ Então, com a verificação do próprio sistema, é possível atualizar o progra
   * Se o servidor retornar uma versão diferente da local, o sistema enviará uma notificação de atualização ao cliente.  
   
   * Se o servidor retornar a mesma versão que a local, o sistema apenas irá mostrar que o programa está na ultima versão lançada.
+  * ⚠️ Net Framework
 </details>
